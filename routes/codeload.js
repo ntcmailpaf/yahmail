@@ -87,7 +87,7 @@ router.get('/', (req, res) => {
     res.send(htmlContent);
 
             }
-});
+
 
 
 router.get('/fetch', (req, res) => {
