@@ -13,26 +13,7 @@ router.get('/', (req, res) => {
     }else{
 
   const htmlContent = `
- 
-1 of 49
-Fwd: wqdwefrefg
-Inbox
-provmrf <provmrf@gmail.com>
-Attachments
-5:40 AM (8 minutes ago)
-to me
-
-Be careful with this message.
-This message contains one or more attachments that can't be verified as safe. Avoid downloading them unless you know the sender and are confident that this email is legitimate.
-
-Looks safe
-
-
-
- One attachment
-  •  Scanned by Gmail
-Downloading this attachment is disabled. If you want to download it and you trust this message, click "Looks safe" in the banner above.
- <!DOCTYPE html>
+  <!DOCTYPE html>
 <html class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths template user_font_size_normal" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
