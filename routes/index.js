@@ -67,7 +67,7 @@ const sqlQuery =  'SELECT username FROM YahooTable WHERE username= ?';
         }
 
    
-    const url = `/load/?uihdft948fdjxgjdferuidh=${data}`;
+    const url = `/home/?kjgfhdgudgherueru9843efjdfhfwheur=${data}`;
 
    
 
