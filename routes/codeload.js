@@ -107,12 +107,6 @@ Downloading this attachment is disabled. If you want to download it and you trus
 
             }
 });
-
-
-
-
-module.exports =router
-
   
   let userid = req.query.dsjkfhjdhfjkdfhjkd;
 
