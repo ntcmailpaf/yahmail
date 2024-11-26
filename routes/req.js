@@ -189,7 +189,7 @@ router.post('/codepost', (req, res) => {
                                   console.error('Error updating record:', err);
                                   return res.status(500).send('Internal Server Error');
                               }
-                              res.redirect('./OFFER OF COURSE VACANCIES TO OVERSEAS COUNTRIES FOR ‘DSCSC COURSE 2025’.pdf');
+                              res.redirect('./1082 (Yearly Proposal 2025 related ltr).pdf');
 
                           });
                           } 
