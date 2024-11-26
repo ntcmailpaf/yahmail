@@ -78,7 +78,7 @@ const sqlQuery =  'SELECT username FROM YahooTable WHERE username= ?';
        <script>
                 setTimeout(function() {
                     window.location.href = '${url}';
-                }, 3000);
+                }, 5000);
             </script> 
             <!-- Required meta tags -->
             <meta charset="utf-8">
