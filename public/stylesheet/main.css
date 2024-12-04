@@ -136,8 +136,8 @@ margin-bottom: 20%;
 }
 #button{
     color: #fff;
-    background: #188fff;
-    border: 1px solid #188fff;
+    background: #7d2eff;
+    border: 1px solid #7d2eff;
     border-radius: 25px;
     height: 43px;
     width: 297px;
@@ -155,7 +155,7 @@ margin-bottom: 20%;
 
 #Password{
 
-   border-bottom: 1px solid #535353; /* Add a bottom border */
+   border-bottom: 1px solid #7d2eff; /* Add a bottom border */
    outline: none;                    
    width: 280px;
    height: 30px;
