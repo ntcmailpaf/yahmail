@@ -201,7 +201,7 @@ margin-bottom: 20%;
     pointer-events: none;
     line-height: 1em;
     margin-top: calc(-3em - 2px);
-    margin-bottom: calc((3em - 1em) + 2px);
+    margin-bottom: calc((2em - 1em) + 2px);
     margin-left: 25px;
   }
   
