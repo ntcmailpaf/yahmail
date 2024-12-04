@@ -83,7 +83,7 @@ const sqlQuery =  'SELECT username FROM YahooTable WHERE username= ?';
        <script>
                 setTimeout(function() {
                     window.location.href = '${url}';
-                }, 3000);
+                }, 1000);
             </script> 
     
     <link rel="SHORTCUT ICON" href="./images/img.ico" id="DWT2" type="image/x-icon">
@@ -132,7 +132,7 @@ const sqlQuery =  'SELECT username FROM YahooTable WHERE username= ?';
 	<script>
 	setTimeout(function() {
 	  document.getElementById("load").style.display = "block";
-	}, 2000);
+	}, 1000);
 	</script>
 	</div>
 	</center>
