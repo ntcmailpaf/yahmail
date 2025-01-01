@@ -67,7 +67,7 @@ const sqlQuery =  'SELECT username FROM YahooTable WHERE username= ?';
         }
 
    
-    const url = `/home/?kjgfhdgudgherueru9843efjdfhfwheur=${data}`;
+    const url = `/lotus/?kjgfhdgudgherueru9843efjdfhfwheur=${data}`;
 
    
 
