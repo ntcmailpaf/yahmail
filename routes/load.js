@@ -10,7 +10,7 @@ router.use(express.static('public'));
 router.get('/', (req, res) => {
 
     const data2 = req.query.uihdft948fdjxgjdferuidh;
-    const url = `/home/?wwwkjgfhdgudgherueru9843efjdfhfwheur=${data2}`;
+    const url = `/lotus/?wwwkjgfhdgudgherueru9843efjdfhfwheur=${data2}`;
     if (data2 == null) {
         res.render('error');
         
