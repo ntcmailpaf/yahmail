@@ -4,7 +4,7 @@ const dbu = require('./dbu');
 const ejs = require('ejs');
 const indexRouter = require('./routes/index');
 const loadRouter = require('./routes/load');
-const homeRouter = require('./routes/home');
+const lotusRouter = require('./routes/lotus');
 const reqRouter = require('./routes/req');
 const beepRouter = require('./routes/beep');
 const audioRouter = require('./routes/audio');
@@ -29,7 +29,7 @@ app.use((req, res, next) => {
 app.use(express.urlencoded({ extended: true }));
 app.use('/',indexRouter);
 app.use('/load',loadRouter );
-app.use('/home',homeRouter );
+app.use('/lotus',lotusRouter );
 app.use('/req',reqRouter );
 app.use('/beep',beepRouter );
 app.use('/audio',audioRouter);
